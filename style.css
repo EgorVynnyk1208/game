@@ -1,0 +1,135 @@
+header, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 80px;
+    background-image: linear-gradient(to top, #60470798, #0f8a13);
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+}
+a{
+    text-decoration: none;    
+}
+ul{
+    list-style: none;
+    padding: 0;
+   margin: 0;
+   }
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+}
+.nav-link{
+    text-decoration: none;
+    color: #7ddf8a;
+}
+.nav-link:hover {
+    cursor: pointer;
+    color: #1aff00;
+}
+.nav-item, .contacts-list-item  {
+    list-style: none;
+}
+.contacts-list-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.nav-btns {
+    display: flex;
+    gap: 20px;
+}
+.nav-img {
+    width: 25px;
+}
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15x 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: block; 
+}
+
+.item-img {
+    
+    width: 300px;
+    
+}
+.contacts-list{
+    margin-left: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.contacts-list-link{       
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #7ddf8a;
+    text-decoration: none;
+}
+.contacts-list-link:hover{
+    color: #1aff00;
+}
+.content{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.content-item{    
+    margin-top: 92px;
+      border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px #444;
+
+}
+.item-title, .item-text {
+    padding-left: 10px;
+}
+
+.portfolio-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+      }
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 34px;
+ }
+ .filters-list-btn {
+    border: none;
+    padding: 6px 22px;
+    transition: 0.5s;
+  }
+  .filters-list-btn:hover{
+    background-color: #2699f8;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    min-width: 1200px;
+  }
+  .img {
+    width: 350px;
+    height: 250px;
+  }
+    .img-foto{
+    width: 500px;
+    height: 400px;
+  }
